@@ -30,7 +30,6 @@ a {
   text-decoration: none;
 }
 
-/* Center the container */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -66,14 +65,5 @@ float: center;
   width: 300px;
 }
 
-.btn {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
+
 

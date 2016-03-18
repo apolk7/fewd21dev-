@@ -12,32 +12,28 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+        <link rel="stylesheet" href="css/normalize.css">
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
-	<!-- container for the nav/image section-->
-	<container>
+
+    <div class="container">
     <header>
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li>
-                    <a href="#">See</a>
-                </li>
-                <li>
-                    <a href="#">Stay</a>
-                </li>
-                <li>
-                    <a href="#">Eat</a>
-                </li>
-                <li>
-                    <a href="#">Drink</a>
-                </li>
+                <li><a href="#">See</a></li>
+                <li><a href="#">Stay</a></li>
+                <li><a href="#">Eat</a></li>
+                <li><a href="#">Drink</a></li>
             </ul>
         </nav>    
   	</header>
-    <img src="images/LAwater.jpeg" alt="LA ocean" style="width:100%;height:500px;">
-	</container>
+
+  	<div class="mainimage"
+    	<img src="images/LAwater.jpeg" alt="LA ocean" style="width:100%;height:500px;">
+	</div>
 
 	<!--for the map section-->
 	<section class="map-section"> 
@@ -49,14 +45,23 @@
 		<!--do you put the font on top of the image on the image file? 		<div class="map-teaser-font"> ? Only in CSS?-->
 		<div class="map-teaser">
 			<p>Istanbul</p>
+		<!-- background images  -->
+		<!-- text Ist. be a link and padding and background image as a partof the link. global class for the boxes. make the box a button -->
 			<img src="images/map.jpeg" alt="map" style="width:400px;height:200px;">
 		</div>
+
 		<div class="map-teaser">
 			<p>Paris</p>
 			<img src="images/map.jpeg" alt="map" style="width:400px;height:200px;">
 		</div>
-	</section>
-	
-	</body>
 
+	</section>
+
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
 </html>
